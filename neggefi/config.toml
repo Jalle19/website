@@ -1,0 +1,15 @@
+baseurl = "http://negge.fi/"
+languageCode = "en-us"
+title = "Sam Stenvall"
+theme = "strange-case"
+author = "Sam Stenvall"
+copyright = "Sam Stenvall"
+canonifyurls = true
+paginate = 5
+
+[params]
+    colorScheme = "scheme-darkbrown"
+    DateFormat = "2 Jan 2006"
+    description = "Biography, portfolio, blog"
+    sidebarDescription = "A Hugo Theme built with Bootstrap"
+    sidebarFreeText = ""
