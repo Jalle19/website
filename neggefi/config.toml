@@ -1,4 +1,4 @@
-baseurl = "http://negge.fi/"
+baseurl = "http://negge.fi"
 languageCode = "en-us"
 title = "Sam Stenvall"
 theme = "strange-case"
