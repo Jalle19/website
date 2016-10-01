@@ -12,3 +12,18 @@ paginate = 5
     description = "Biography, portfolio, blog"
     sidebarDescription = "A Hugo Theme built with Bootstrap"
     sidebarFreeText = ""
+
+[[menu.main]]
+    name = "Biography"
+    post = "<span class='glyphicon glyphicon-fire'></span>"
+    url = "/biography"
+
+[[menu.main]]
+    name = "Portfolio"
+    post = "<span class='glyphicon glyphicon-fire'></span>"
+    url = "/portfolio"
+    
+[[menu.main]]
+    name = "Blog"
+    post = "<span class='glyphicon glyphicon-fire'></span>"
+    url = "/blog"
