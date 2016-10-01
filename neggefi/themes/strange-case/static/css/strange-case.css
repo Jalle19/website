@@ -66,6 +66,12 @@ p {
 	margin-top: 1em;
 	font-weight: bold;
 }
+.post a {
+	text-decoration: underline;
+}
+.post .post-heading h1 a {
+	text-decoration: none;
+}
 .post .post-heading span {
 	font-size:1.4em;
 }
@@ -211,7 +217,7 @@ p.attr {
 	color: #99cc99;
 }
 .scheme-darkbrown .content a {
-	color: #2d2d2d;
+	color: #5d7c5d;
 }
 .scheme-darkbrown .post .post-heading span {
 	color: #9a9a9a;
