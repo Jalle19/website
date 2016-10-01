@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Sam Stenvall"
 theme = "strange-case"
 author = "Sam Stenvall"
-copyright = "Sam Stenvall"
 canonifyurls = true
 paginate = 5
 
