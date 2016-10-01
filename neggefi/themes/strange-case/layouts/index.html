@@ -9,18 +9,19 @@
 			</div>
 			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
 
-				{{ range first 10 .Data.Pages }}
 				<div class="post">
 
 					<div class="post-heading">
-						<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-						<span>{{ .Date.Format .Site.Params.DateFormat }}{{ if .Params.author }} by {{ .Params.author }}{{ end }}</span>
+						<h1>Welcome</h1>
 					</div>
 
-					{{ .Content }}
-
+					<p>
+						I decided to make a very basic website where I can write a little about myself, showcase my open-source
+						portfolio and randomly rant about things on a blog. There isn't much content here yet and the links on the
+						left don't really work yet (except for the blog), so stay tuned!	
+					</p>
+					
 				</div>
-				{{ end }}
 
 			</div>
 			<div class="col-sm-1 col-md-3 col-md-4">
