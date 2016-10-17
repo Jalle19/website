@@ -17,7 +17,12 @@
 						<span>{{ .Date.Format .Site.Params.DateFormat }}{{ if .Params.author }} by {{ .Params.author }}{{ end }}</span>
 					</div>
 
-					{{ .Content }}
+					{{ .Summary }}
+					{{ if .Truncated }}
+					<p class="read-more-link">
+						<a href="{{ .RelPermalink }}">Read more</a>
+					</p>
+					{{ end }}
 
 				</div>
 				{{ end }}

@@ -13,6 +13,8 @@ If you don't want to leech some free hosting, you can always just get a good old
 on that. I'm a strong believer in making automated and reproducible infrastructure, so I thought I'd explain how the 
 server serving you this content was set up from scratch, without me ever logging in to it to manually configure things.
 
+<!--more-->
+
 Granted, it's pretty easy to just get a server somewhere, log into to it with the auto-generated password, run 
 `apt-get install nginx`, drop some files on it and be good to go. It's also not very interesting.
 
