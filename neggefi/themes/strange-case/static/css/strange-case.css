@@ -88,7 +88,7 @@ pre {
 	font-size: 1.3em;
 	text-align: left;
 }
-.sidebar .sidebar-content {
+.sidebar .sidebar-content, .sidebar-content-bottom {
 	width:85%;
 	margin:0 auto;
 }
@@ -117,16 +117,13 @@ pre {
 		left: 0;
 		position: fixed;
 	}
-	.sidebar-content {
+	.sidebar-content, .sidebar-content-bottom {
 		left: 1em;
 		right: 1em;
 		position: absolute;
 	}
 	.sidebar-content-bottom {
 		bottom: 1em;
-		left: 1em;
-		right: 1em;
-		position: absolute;
 	}
 	.sidebar .sidebar-content, .sidebar-content-bottom {
 		width:75%;
