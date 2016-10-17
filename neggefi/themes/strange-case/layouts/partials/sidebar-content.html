@@ -12,7 +12,7 @@
 
 		<ul class="sidebar-menus">
 			{{ range .Site.Menus.main.ByWeight }}
-				<li>&#187; <a href="{{.URL}}">{{ .Name }}</a> {{ .Post }}</li>
+				<li>{{ .Post }} &nbsp; &nbsp;<a href="{{.URL}}">{{ .Name }}</a></li>
 			{{end}}
 		</ul>
 
