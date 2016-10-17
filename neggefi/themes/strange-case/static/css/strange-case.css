@@ -126,7 +126,7 @@ pre {
 		right: 1em;
 		position: absolute;
 	}
-	.sidebar .sidebar-content {
+	.sidebar .sidebar-content, .sidebar-content-bottom {
 		width:75%;
 		margin:0 auto;
 	}
