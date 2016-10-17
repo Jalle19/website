@@ -27,12 +27,10 @@ html, body {
 h1, h2, h3, h4 {
 	font-family: Roboto, sans-serif;
 }
-p {
+p, li {
 	font-family: Roboto, sans-serif;
 	font-size: 1.2em;
 }
-
-
 
 /* BLOG CONTENT */
 
@@ -76,6 +74,11 @@ p {
 	font-size:1.4em;
 }
 
+pre {
+	background-color: unset;
+	border: none;
+	border-radius: 0;
+}
 
 /* SIDEBAR */
 
@@ -207,7 +210,7 @@ p.attr {
 
 /* Dark Brown Scheme */
 .scheme-darkbrown .sidebar {
-	background-color: #2d2d2d;
+	background-color: #272822;
 	color: #f2f0ec;
 }
 .scheme-darkbrown .sidebar h1 {
