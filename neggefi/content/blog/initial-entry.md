@@ -1,6 +1,9 @@
 +++
 date = "2016-09-29T18:53:46+03:00"
 title = "Starting a new personal site"
+type = "post"
+tags = ["x", "y"]
+categories = ["x", "y"]
 +++
 
 There are a lot of reasonably competent and interesting people in the field of software engineering today. I figured 

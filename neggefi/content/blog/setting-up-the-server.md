@@ -1,7 +1,9 @@
 +++
 date = "2016-10-01T10:26:33+03:00"
 title = "Setting up this server"
-
+type = "post"
+tags = ["x", "y"]
+categories = ["x", "y"]
 +++
 
 I'm an old fashioned guy when it comes to web hosting. I could host this site on any number of free static hosting 
