@@ -14,16 +14,19 @@ paginate = 5
     sidebarFreeText = ""
 
 [[menu.main]]
-    name = "Biography"
-    post = "<span class='glyphicon glyphicon-fire'></span>"
-    url = "/biography"
-
-[[menu.main]]
     name = "Portfolio"
-    post = "<span class='glyphicon glyphicon-fire'></span>"
-    url = "/portfolio"
+    post = "<span class='glyphicon glyphicon-briefcase'></span>"
+    url = "/page/portfolio"
+    weight = 10
+    
+[[menu.main]]
+    name = "Biography"
+    post = "<span class='glyphicon glyphicon-user'></span>"
+    url = "/page/biography"
+    weight = 20
     
 [[menu.main]]
     name = "Blog"
-    post = "<span class='glyphicon glyphicon-fire'></span>"
+    post = "<span class='glyphicon glyphicon-book'></span>"
     url = "/blog"
+    weight = 30
