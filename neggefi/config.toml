@@ -21,13 +21,13 @@ pygmentsoptions = "linenos=true"
     name = "Portfolio"
     post = "<span class='glyphicon glyphicon-briefcase'></span>"
     url = "/page/portfolio"
-    weight = 10
+    weight = 20
     
 [[menu.main]]
     name = "Biography"
     post = "<span class='glyphicon glyphicon-user'></span>"
     url = "/page/biography"
-    weight = 20
+    weight = 10
     
 [[menu.main]]
     name = "Blog"
