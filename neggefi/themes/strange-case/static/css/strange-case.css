@@ -118,6 +118,8 @@ pre {
 		position: fixed;
 	}
 	.sidebar-content {
+		left: 1em;
+		right: 1em;
 		position: absolute;
 	}
 	.sidebar-content-bottom {
