@@ -6,6 +6,13 @@ author = "Sam Stenvall"
 canonifyurls = true
 paginate = 5
 
+pygmentsuseclasses = false
+pygmentsstyle = "monokai"
+pygmentsoptions = "linenos=true"
+
+[pygments_options]
+  tabsize = 4
+  
 [params]
     colorScheme = "scheme-darkbrown"
     DateFormat = "2 Jan 2006"
