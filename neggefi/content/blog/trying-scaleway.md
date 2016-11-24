@@ -38,10 +38,10 @@ Continuing on the performance part, if you can live with bad disk I/O the server
 comparing it to similar x86 offerings, but for basic stuff it's pretty good. Plus, at 2,99 € / month per server you 
 can scale pretty cheaply.
 
-Other downsides include no IPv6 support (you'll find people ranting about it on the Internet), and `ufw` (the firewall) 
+Other downsides include no IPv6 support (you'll find people ranting about it on the Internet), and ufw (the firewall) 
 doesn't work like you'd expect since the root device is mounted over the network. I ended up using a rather lame 
-workaround where instead of changing the default INPUT policy to DROP I manually append a "drop all" rule to the INPUT 
-chain. While this works, it's a bit unfortunate since you have to bypass `ufw''s noob-friendliness and deal with the 
-underlying iptables layer directly. But hey, it works!
+workaround where instead of changing the default `INPUT` policy to `DROP` I manually append a "drop all" rule to the 
+`INPUT` chain. While this works, it's a bit unfortunate since you have to bypass ufw's noob-friendliness and deal with 
+the underlying iptables layer directly. But hey, it works!
 
 So there you have it, this site is now served to you from a dedicated ARM server!
