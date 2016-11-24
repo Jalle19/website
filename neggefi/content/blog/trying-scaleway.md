@@ -34,7 +34,7 @@ is a community-built [Packer builder for Scaleway](https://github.com/meatballha
 haven't tried it). Apart from that it was just a matter of changing the DNS record and kicking Capistrano once to get 
 the site deployed again.
 
-Continuing on the performance part, if you can leave with bad disk I/O the server is pretty snappy. I wouldn't try 
+Continuing on the performance part, if you can live with bad disk I/O the server is pretty snappy. I wouldn't try 
 comparing it to similar x86 offerings, but for basic stuff it's pretty good. Plus, at 2,99 € / month per server you 
 can scale pretty cheaply.
 
