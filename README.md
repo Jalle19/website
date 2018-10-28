@@ -1,1 +1,3 @@
-# website
+# negge.fi
+
+My personal website
